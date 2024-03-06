@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML 5 Document</title>
+    <title>List</title>
     <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
@@ -14,15 +14,32 @@
     </nav>
     <main>
         <header>
-            <h1>HTML 5 Document</h1>
+            <h1>List</h1>
             <h2>
-                Basic Structure of document HTML 5
+                Estas etiquetas permiten trabajar listas organizadas y desorganizadas
             </h2>
         </header>
         <section>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit atque rerum quae consequatur blanditiis, quidem quam autem nobis iusto sequi vero est amet sit sint. Error mollitia aliquid quas ipsa?
-            </p>
+            <h2>Lista ordenada</h2>
+            <ol start="5" type="I">
+                <li>Java</li>
+                <li>
+                    Python
+                    <ol type="a" start="5" reversed>
+                        <li>Flask</li>
+                        <li>Django</li>
+                    </ol>
+                </li>
+                <li>Ruby</li>
+                <li>C#</li>
+            </ol>
+            <h2>Lista desorganizada</h2>
+            <ul>
+                <li>Kimetsu No Yaiba</li>
+                <li>Jujutsu Kaisen</li>
+                <li>Shingeki No Kyojin</li>
+                <li>Chainsaw Man</li>
+            </ul>
         </section>
     </main>
 </body>
